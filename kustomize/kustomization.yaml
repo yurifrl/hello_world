@@ -1,0 +1,8 @@
+images:
+- name: yurifl/hello_world
+  newTag: latest
+
+resources:
+- base/deployment.yaml
+- base/service.yaml
+- base/configMap.yaml
